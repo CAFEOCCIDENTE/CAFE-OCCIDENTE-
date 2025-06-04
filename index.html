@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Occidente | Desde 1985</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Raleway', sans-serif;
+      background-color: #f5f1ea;
+      color: #333;
+    }
+    h1, h2, h3, .brand-font {
+      font-family: 'Playfair Display', serif;
+    }
+    .hero {
+      background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url('https://images.unsplash.com/photo-1445116572660-236099ec97a0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+      background-size: cover;
+      background-position: center;
+      min-height: 80vh;
+    }
+    .cafe-bg { background-color: #5c3a21; }
+    .cafe-text { color: #5c3a21; }
+    .border-cafe { border-color: #5c3a21; }
+  </style>
+</head>
+<body>
+  <nav class="bg-white shadow-lg fixed w-full z-10">
+    <div class="max-w-7xl mx-auto px-4 flex justify-between h-20 items-center">
+      <div class="flex items-center">
+        <span class="brand-font text-2xl text-cafe cafe-text font-bold">CAFÉ OCCIDENTE</span>
+        <span class="ml-2 text-sm text-gray-500">desde 1985</span>
+      </div>
+      <div class="hidden md:flex items-center space-x-8">
+        <a href="#historia" class="text-gray-700 hover:text-cafe-text">Nuestra Historia</a>
+        <a href="#variedades" class="text-gray-700 hover:text-cafe-text">Variedades</a>
+        <a href="#proceso" class="text-gray-700 hover:text-cafe-text">Proceso</a>
+        <a href="#contacto" class="text-gray-700 hover:text-cafe-text">Contacto</a>
+      </div>
+    </div>
+  </nav>
+  <header class="hero flex items-center justify-center pt-20">
+    <div class="text-center text-white">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">CAFÉ OCCIDENTE</h1>
+      <h2 class="text-xl md:text-3xl mb-6">Pasión por el café desde 1985</h2>
+      <button class="bg-transparent hover:bg-white text-white hover:text-cafe-text py-3 px-8 border-2 border-white hover:border-transparent rounded-none mt-8 transition duration-300">
+        DESCUBRE NUESTRO CAFÉ
+      </button>
+    </div>
+  </header>
+</body>
+</html>
